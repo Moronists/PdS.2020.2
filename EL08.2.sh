@@ -5,6 +5,6 @@ arquivo=/tmp/chave.txt
 while [ ! -f "$arquivo" ]
 do
         clear
-        now="$(date +"%r")"
-        read -t 2 -p "$now"
+        hr="$(date +"%r")"
+        read -t 2 -p "$hr"
 done
