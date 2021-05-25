@@ -2,7 +2,7 @@
 
 
 
-function nMmaior {
+function nMaior {
 if [ $1 -gt $2 ]
 then
 

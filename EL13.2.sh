@@ -2,17 +2,17 @@
 source EL13.1a.sh 
 source EL13.1b.sh 
 
-nMaior=0
-nMenor=-1
+more=0
+less=-1
 
-lista=$(cat a.txt)
+lista=$(cat exemplo.txt)
 for n in $lista
 do
         
-	maior=$(vMaior $n $nMaior)
+	maior=$( nMaior $n $more )
 	nMaior=$maior
 	
-	menor=$(vMenor $n $nMenor)
+	menor=$( nMenor $n $less )
 	nMenor=$menor
 
 done
